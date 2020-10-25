@@ -1,0 +1,26 @@
+
+input[type='text']{
+  background : #20c997;
+  width : 150px;
+  height : 15px;
+  padding : 10px 20px;
+  border-radius: 20px;
+  color : red;
+  font-weight: bold;
+  outline: none;
+}
+textarea{
+  color : blue;
+}
+label{
+  color : red;
+}
+input[type="submit"]{
+  padding : 10px 20px;
+  border-radius: 20px;
+  background: #20c997;
+  color : #fff;
+  outline : none;
+  border : none;
+
+}
