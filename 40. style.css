@@ -1,0 +1,58 @@
+
+.mydiv{
+  width : 150px;
+  height: 150px;
+  background: red;
+
+  -webkit-animation-name: anim;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 3;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-direction: alternate;
+  -moz-animation-name: anim;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: 3;
+  -moz-animation-delay: 1s;
+  -moz-animation-direction: alternate;
+  -ms-animation-name: anim;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: 3;
+  -ms-animation-delay: 1s;
+  -ms-animation-direction: alternate;
+  -o-animation-name: anim;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: 3;
+  -o-animation-delay: 1s;
+  -o-animation-direction: alternate;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-delay: 1s;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes anim {
+  0%{width: 0px;height: 0px;}
+  50%{background:#20c997;}
+  100%{width: 150px;height: 150px;}
+}
+@-moz-keyframes anim {
+  0%{width: 0px;height: 0px;}
+  50%{background:#20c997;}
+  100%{width: 150px;height: 150px;}
+}
+@-ms-keyframes anim {
+  0%{width: 0px;height: 0px;}
+  50%{background:#20c997;}
+  100%{width: 150px;height: 150px;}
+}
+@-o-keyframes anim {
+  0%{width: 0px;height: 0px;}
+  50%{background:#20c997;}
+  100%{width: 150px;height: 150px;}
+}
+@keyframes anim {
+  0%{width: 0px;height: 0px;}
+  50%{background:#20c997;}
+  100%{width: 150px;height: 150px;}
+}
