@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding : 0;
+}
+.div1{
+  width : 200px;
+  height : 200px;
+  background : #20c997;
+  margin-left: 20px;
+  margin-top : 20px;
+  padding : 10px;
+}
+.div2{
+  width : 200px;
+  height : 200px;
+  background : green;
+  margin-top : 20px;
+  margin-left : 20px;
+}
