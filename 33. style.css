@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding : 0;
+}
+
+.block1{
+
+  height: 100px;
+  width : 100px;
+  margin : 200px;
+  background: red;
+  -webkit-transition:background-color 2s, transform 2s;
+  -mox-transition:background-color 2s, transform 2s;
+  -ms-transition:background-color 2s, transform 2s;
+  -o-transition:background-color 2s, transform 2s;
+  transition:background-color 2s, transform 2s;
+}
+.block1:hover{
+  background : green;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
