@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding : 0;
+}
+
+.block1{
+  height: 100px;
+  width : 100px;
+  background: red;
+  float : left;
+}
+.block2{
+  height : 100px;
+  width : 100px;
+  background: green;
+  float : right;
+}
