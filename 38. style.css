@@ -1,0 +1,10 @@
+
+.mydiv{
+  width: 800px;
+  height: 150px;
+  background: -webkit-linear-gradient(to top right, red,green);
+  background: -moz-linear-gradient(to top right, red,green);
+  background: -ms-linear-gradient(to top right, red,green);
+  background: -o-linear-gradient(to top right, red,green);
+  background: linear-gradient(to top right, red,green);
+}
