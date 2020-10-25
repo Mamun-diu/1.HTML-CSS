@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding : 0;
+}
+
+.block1{
+
+  height: 100px;
+  width : 100px;
+  background: red;
+  transition: 2s;
+}
+.block1:hover{
+  background : green;
+  width : 200px;
+  height : 200px;
+  transform: rotate(360deg);
+  /* transform: skewX(20deg); */
+  /* transform: skewY(20deg); */
+  transform: scale(1.5, 2);
+}
