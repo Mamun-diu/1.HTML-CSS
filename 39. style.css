@@ -1,0 +1,10 @@
+
+.mydiv{
+  width: 800px;
+  height: 150px;
+  background: -webkit-radial-gradient(red,green,blue,yellow);
+  background: -moz-radial-gradient(red,green,blue,yellow);
+  background: -ms-radial-gradient(red,green,blue,yellow);
+  background: -o-radial-gradient(red,green,blue,yellow);
+  background: radial-gradient(red 19%,green 30%,blue 50%,yellow 1%);
+}
