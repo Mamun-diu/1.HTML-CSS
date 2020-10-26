@@ -1,0 +1,36 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+#wrapper{
+  width : 70%;
+  margin : 0 auto;
+  overflow: hidden;
+}
+.box{
+  width : 30%;
+  margin-right : 2%;
+  float: left;
+}
+.box img{
+  width: 100%;
+  height : 200px;
+}
+.box h2{
+  color : #F8B65D;
+}
+.box p{
+  text-align: justify;
+}
+.box a{
+  text-decoration: none;
+  background: #F8B65D;
+  color : red;
+  display: block;
+  text-align: center;
+  padding : 5px 10px;
+}
+.box a:hover{
+  background : #663705;
+  color : #ddd;
+}
