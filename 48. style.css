@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+  margin : 0;
+  padding : 0;
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+.button{
+  display: inline-block;
+  margin : 100px;
+  text-decoration: none;
+
+
+}
+.content{
+  background: #ddd;
+  padding : 10px 30px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 5;
+
+
+}
+.button:hover .content::before{
+  left : 0;
+}
+.button:hover .content::after{
+  right : 0;
+}
+.content::before{
+  content: "";
+  position: absolute;
+  left :-50%;
+  top : 0;
+  width: 50%;
+  height: 100%;
+  background : green;
+  transition: 0.5s;
+  z-index: -5;
+}
+.content::after{
+  content: "";
+  position: absolute;
+  right :-50%;
+  top : 0;
+  width: 50%;
+  height: 100%;
+  background : red;
+  transition: 0.5s;
+  z-index: -5;
+}
+.button:hover .content{
+  background : none;
+  color : white;
+}
